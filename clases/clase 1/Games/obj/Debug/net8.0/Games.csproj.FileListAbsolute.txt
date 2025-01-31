@@ -1,0 +1,14 @@
+/home/marcos/Documentos/clase 1/Games/bin/Debug/net8.0/Games
+/home/marcos/Documentos/clase 1/Games/bin/Debug/net8.0/Games.deps.json
+/home/marcos/Documentos/clase 1/Games/bin/Debug/net8.0/Games.runtimeconfig.json
+/home/marcos/Documentos/clase 1/Games/bin/Debug/net8.0/Games.dll
+/home/marcos/Documentos/clase 1/Games/bin/Debug/net8.0/Games.pdb
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/Games.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/Games.AssemblyInfoInputs.cache
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/Games.AssemblyInfo.cs
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/Games.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/Games.dll
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/refint/Games.dll
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/Games.pdb
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/Games.genruntimeconfig.cache
+/home/marcos/Documentos/clase 1/Games/obj/Debug/net8.0/ref/Games.dll
