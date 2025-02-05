@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marcos/Documentos/clase 1/Games/Games.csproj": {}
+    "/home/marcos/Documentos/EDD-C-1S2025/clases/clase 1/Games/Games.csproj": {}
   },
   "projects": {
-    "/home/marcos/Documentos/clase 1/Games/Games.csproj": {
+    "/home/marcos/Documentos/EDD-C-1S2025/clases/clase 1/Games/Games.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcos/Documentos/clase 1/Games/Games.csproj",
+        "projectUniqueName": "/home/marcos/Documentos/EDD-C-1S2025/clases/clase 1/Games/Games.csproj",
         "projectName": "Games",
-        "projectPath": "/home/marcos/Documentos/clase 1/Games/Games.csproj",
+        "projectPath": "/home/marcos/Documentos/EDD-C-1S2025/clases/clase 1/Games/Games.csproj",
         "packagesPath": "/home/marcos/.nuget/packages/",
-        "outputPath": "/home/marcos/Documentos/clase 1/Games/obj/",
+        "outputPath": "/home/marcos/Documentos/EDD-C-1S2025/clases/clase 1/Games/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcos/.nuget/NuGet/NuGet.Config"
