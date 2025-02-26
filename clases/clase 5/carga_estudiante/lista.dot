@@ -1,0 +1,10 @@
+digraph G {
+    node [shape=record];
+    rankdir=LR;
+    subgraph cluster_0 {
+        label = "Lista Simple";
+        n0 [label = "{<data> ID: 1 \n Nombre: Juan Pérez \n Correo: juan.perez@mail.com }"];
+        n1 [label = "{<data> ID: 2 \n Nombre: María Gómez \n Correo: maria.gomez@mail.com }"];
+        n0 -> n1;
+    }
+}
