@@ -20,6 +20,7 @@ namespace Estructuras
         //* Método para insertar un nuevo nodo en la lista
         public void Insertar(int id, string name, string last_name, string correo)
         {
+            // marshal AllocHGlobal para reservar memoria no administrada
             Nodo* nuevoNodo = (Nodo*)Marshal.AllocHGlobal(sizeof(Nodo));
             nuevoNodo->Id = id;
             nuevoNodo->Siguiente = null;
@@ -136,6 +137,7 @@ namespace Estructuras
         {
             for (int i = 0; i < 50; i++)
             {
+                // Asignar '\0' si el índice supera la longitud de la cadena fuente
                 destino[i] = i < fuente.Length ? fuente[i] : '\0';
             }
         }

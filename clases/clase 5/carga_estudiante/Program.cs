@@ -57,6 +57,7 @@ namespace carga
                             foreach (var persona in personas)
                             {
                                 Console.WriteLine($"ID: {persona.ID}, Nombres: {persona.Nombres}, Apellidos: {persona.Apellidos}, Correo: {persona.Correo}");
+                                //  ListaSimple.Buscar(persona.ID);
                                 ListaSimple.Insertar(persona.ID, persona.Nombres, persona.Apellidos, persona.Correo);
                             }
                         }
