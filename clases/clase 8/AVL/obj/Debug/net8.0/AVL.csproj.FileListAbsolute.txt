@@ -1,0 +1,15 @@
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.AssemblyInfoInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.AssemblyInfo.cs
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.sourcelink.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/bin/Debug/net8.0/AVL
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/bin/Debug/net8.0/AVL.deps.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/bin/Debug/net8.0/AVL.runtimeconfig.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/bin/Debug/net8.0/AVL.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/bin/Debug/net8.0/AVL.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/refint/AVL.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/AVL.genruntimeconfig.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/AVL/obj/Debug/net8.0/ref/AVL.dll

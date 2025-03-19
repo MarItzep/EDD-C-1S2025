@@ -1,0 +1,15 @@
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/bin/Debug/net8.0/B5
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/bin/Debug/net8.0/B5.deps.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/bin/Debug/net8.0/B5.runtimeconfig.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/bin/Debug/net8.0/B5.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/bin/Debug/net8.0/B5.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.AssemblyInfoInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.AssemblyInfo.cs
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.sourcelink.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/refint/B5.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/B5.genruntimeconfig.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/B5/obj/Debug/net8.0/ref/B5.dll
