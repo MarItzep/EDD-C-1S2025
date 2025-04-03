@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
-
 namespace Matriz
+
 {
     public unsafe class MatrizDispersa<T> where T : unmanaged
     {
@@ -165,6 +165,7 @@ namespace Matriz
             {
                 // Imprimir el encabezado de la fila
                 Console.Write("V"+ x_fila->id + "\t");
+                // 
 
                 // Imprimir los valores de la fila
                 NodoInterno<int>* interno = x_fila->acceso;
@@ -187,7 +188,57 @@ namespace Matriz
                 Console.WriteLine(); // Salto de línea después de imprimir una fila
                 x_fila = x_fila->siguiente; // Avanzar a la siguiente fila
             }
-        }
+            }
+               public void Graficar()
+            {
+                string dot = "digraph G {\n";
+                dot += "node [shape=box];\n";
+                
+                // Agregar nodos de la matriz
+                NodoEncabezado<int>* x_fila = filas.primero;
+                while (x_fila != null)
+                {
+                    NodoInterno<int>* interno = x_fila->acceso;
+                    while (interno != null)
+                    {
+                        string nodeName = $"node_{interno->coordenadaX}_{interno->coordenadaY}";
+                        dot += $"{nodeName} [label=\"{interno->nombre}\", shape=box];\n";
+                        
+                        if (interno->derecha != null)
+                        {
+                            string rightNode = $"node_{interno->derecha->coordenadaX}_{interno->derecha->coordenadaY}";
+                            dot += $"{nodeName} -> {rightNode} [dir=both];\n";
+                        }
+                        
+                        if (interno->abajo != null)
+                        {
+                            string downNode = $"node_{interno->abajo->coordenadaX}_{interno->abajo->coordenadaY}";
+                            dot += $"{nodeName} -> {downNode} [dir=both];\n";
+                        }
+                        
+                        interno = interno->derecha;
+                    }
+                    x_fila = x_fila->siguiente;
+                }
+                
+                dot += "}";
+                
+                // Guardar el archivo DOT
+                string path = "matriz.dot";
+                System.IO.File.WriteAllText(path, dot);
+                
+                // Generar la imagen con Graphviz
+                System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo("dot")
+                {
+                    Arguments = "-Tpng matriz.dot -o matriz.png",
+                    RedirectStandardOutput = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+                System.Diagnostics.Process process = System.Diagnostics.Process.Start(psi);
+                process.WaitForExit();
+            }
+
 
         // Destructor para liberar la memoria de los nodos internos y encabezados
         ~MatrizDispersa()

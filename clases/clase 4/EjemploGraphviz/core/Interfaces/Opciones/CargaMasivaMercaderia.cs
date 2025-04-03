@@ -112,6 +112,7 @@ namespace core.Interfaces.Opciones
     public class Mercancia
     {
         public int Id { get; set; }
+        // Cambiar 'Producto' por 'Nombre' para coincidir con el JSON
         public string? Producto { get; set; }  // Debe ser 'Producto' para coincidir con el JSON
         public float Precio { get; set; }
     }

@@ -1,0 +1,22 @@
+digraph G {
+10[label="10"];
+10 -> 12 [dir=normal];
+10 -> 1 [dir=normal];
+11[label="11"];
+11 -> 1 [dir=normal];
+12[label="12"];
+12 -> 10 [dir=normal];
+13[label="13"];
+13 -> 1 [dir=normal];
+20[label="20"];
+20 -> 100 [dir=normal];
+21[label="21"];
+21 -> 1 [dir=normal];
+21[label="21"];
+21 -> 666 [dir=normal];
+666[label="666"];
+666 -> 10 [dir=normal];
+666[label="666"];
+666 -> 1 [dir=normal];
+666 -> 100 [dir=normal];
+}

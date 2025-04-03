@@ -1,0 +1,24 @@
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/clase 10
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/clase 10.deps.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/clase 10.runtimeconfig.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/clase 10.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/clase 10.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/AtkSharp.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/CairoSharp.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/GdkSharp.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/GioSharp.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/GLibSharp.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/GtkSharp.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/bin/Debug/net8.0/PangoSharp.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.csproj.AssemblyReference.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.AssemblyInfoInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.AssemblyInfo.cs
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.sourcelink.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.csproj.CopyComplete
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/refint/clase 10.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/clase 10.genruntimeconfig.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/obj/Debug/net8.0/ref/clase 10.dll

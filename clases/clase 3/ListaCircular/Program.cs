@@ -8,8 +8,8 @@ namespace ListaCircular
         {
             ListaCircular lista = new ListaCircular();
 
-            lista.Insertar(1, "Supermercado X", "Ana Torres", "Calle A #123");
-            lista.Insertar(2, "Farmacia Y", "Luis Méndez", "Avenida B #456");
+            lista.Insertar(1, " Aceite", "Aceite de motor", "Calle A #123");
+            lista.Insertar(2, "Farmacia Y", "Freno delantero", "Avenida B #456");
             lista.Insertar(3, "Restaurante Z", "Carmen López", "Carrera C #789");
 
             Console.WriteLine("Lista de locales:");

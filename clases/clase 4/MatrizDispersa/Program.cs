@@ -15,7 +15,7 @@ namespace Matriz
             //(pos_x, pos_y, nombre)
             //matriz.insert(3, 7, "1");
             matriz.mostrar();
-            
+            matriz.Graficar();
         }
     }
 }
