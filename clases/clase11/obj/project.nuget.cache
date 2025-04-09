@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "B6eVvr1Hl3SYBJvNXtGGt7baoY57IfPpU3jnRMeB8u5gT0lTvArg1tzAokTDQxVplBIHUupbcUkG7zHrFOlPug==",
+  "success": true,
+  "projectFilePath": "/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/clase 11.csproj",
+  "expectedPackageFiles": [
+    "/home/marcos/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,19 @@
+[
+    {
+      "ID": 1,
+      "Nombres": "Carlos Alberto",
+      "Apellidos": "Gomez Martinez",
+      "Correo": "carlos.alberto@usac.com",
+      "Edad": 20,
+      "Contrasenia": "CarlosMartinez"
+    },
+    {
+      "ID": 2,
+      "Nombres": "Lucía Fernanda",
+      "Apellidos": "López Ramírez",
+      "Correo": "lucia.lopez@usac.com",
+      "Edad": 22,
+      "Contrasenia": "LuciaPassword"
+    }
+  ]
+  

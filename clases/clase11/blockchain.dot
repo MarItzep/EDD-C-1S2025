@@ -1,0 +1,8 @@
+digraph Blockchain {
+    node [shape=record, style=filled, fontname="Arial"];
+    Block0 [label="{ INDEX: 2 | TIMESTAMP: 2025-04-09T19:03:02Z | ID: 2 | Nombre: Lucía Fernanda| contrasenia: edaf2cf5a394de570302e8a74dca5d9bbcfca3253903f8d8262aeeb0f89b3fc0 | HASH: 000029 | PREV: 0000d9 }"];
+    Block1 [label="{ INDEX: 1 | TIMESTAMP: 2025-04-09T19:03:02Z | ID: 1 | Nombre: Carlos Alberto| contrasenia: 79ad278b6b8c506bc2f5a5bc4848e0e3eaceaa6ed7a92fa5d4d945ba6bc6365a | HASH: 0000d9 | PREV: 00000d }"];
+    Block1 -> Block0;
+    Block2 [label="{ INDEX: 0 | TIMESTAMP: 2025-04-09T19:03:01Z | ID: 0 | Nombre: | contrasenia:  | HASH: 00000d | PREV: 0000 }"];
+    Block2 -> Block1;
+}

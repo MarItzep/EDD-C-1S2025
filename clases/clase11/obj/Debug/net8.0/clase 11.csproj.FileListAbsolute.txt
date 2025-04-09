@@ -1,0 +1,18 @@
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.AssemblyInfoInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.AssemblyInfo.cs
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.sourcelink.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.csproj.AssemblyReference.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/bin/Debug/net8.0/clase 11
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/bin/Debug/net8.0/clase 11.deps.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/bin/Debug/net8.0/clase 11.runtimeconfig.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/bin/Debug/net8.0/clase 11.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/bin/Debug/net8.0/clase 11.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.csproj.CopyComplete
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/refint/clase 11.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/clase 11.genruntimeconfig.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase11/obj/Debug/net8.0/ref/clase 11.dll
