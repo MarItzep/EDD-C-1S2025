@@ -1,0 +1,47 @@
+[
+  {
+    "Index": 2,
+    "Timestamp": "2025-04-30T19:13:02Z",
+    "Data": {
+      "ID": 2,
+      "Nombres": "Lucía Fernanda",
+      "Apellidos": "López Ramírez",
+      "Correo": "lucia.lopez@usac.com",
+      "Edad": 22,
+      "Contrasenia": "edaf2cf5a394de570302e8a74dca5d9bbcfca3253903f8d8262aeeb0f89b3fc0"
+    },
+    "Nonce": 35655,
+    "PreviousHash": "0000f70436ad1ee097224b680addb4f952bc2a66f0afa8ae78babdddc944a28a",
+    "Hash": "0000ac3944ff4fe87d1d1a846b924f428786dcd2bbdfaf78b827e807571b1e80"
+  },
+  {
+    "Index": 1,
+    "Timestamp": "2025-04-30T19:13:02Z",
+    "Data": {
+      "ID": 1,
+      "Nombres": "Carlos Alberto",
+      "Apellidos": "Gomez Martinez",
+      "Correo": "carlos.alberto@usac.com",
+      "Edad": 20,
+      "Contrasenia": "79ad278b6b8c506bc2f5a5bc4848e0e3eaceaa6ed7a92fa5d4d945ba6bc6365a"
+    },
+    "Nonce": 29708,
+    "PreviousHash": "00001f817f0c1a24836326f846e4b2bce5fbf358b023862b840bd99c2d474350",
+    "Hash": "0000f70436ad1ee097224b680addb4f952bc2a66f0afa8ae78babdddc944a28a"
+  },
+  {
+    "Index": 0,
+    "Timestamp": "2025-04-30T19:13:01Z",
+    "Data": {
+      "ID": 0,
+      "Nombres": null,
+      "Apellidos": null,
+      "Correo": null,
+      "Edad": 0,
+      "Contrasenia": null
+    },
+    "Nonce": 25859,
+    "PreviousHash": "0000",
+    "Hash": "00001f817f0c1a24836326f846e4b2bce5fbf358b023862b840bd99c2d474350"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "ID": 1,
+    "ID_Usuario": 1,
+    "Marca": "Honda Civic",
+    "Modelo": 2005,
+    "Placa": "XZJ7H9K"
+  },
+  {
+    "ID": 2,
+    "ID_Usuario": 2,
+    "Marca": "Toyota Corolla",
+    "Modelo": 2010,
+    "Placa": "JKS8T5A"
+  },
+  {
+    "ID": 3,
+    "ID_Usuario": 2,
+    "Marca": "Ford Focus",
+    "Modelo": 2008,
+    "Placa": "YT2XG9M"
+  },
+  {
+    "ID": 4,
+    "ID_Usuario": 3,
+    "Marca": "Nissan Altima",
+    "Modelo": 2012,
+    "Placa": "FTE6V3R"
+  },
+  {
+    "ID": 5,
+    "ID_Usuario": 3,
+    "Marca": "Chevrolet Aveo",
+    "Modelo": 2007,
+    "Placa": "BZX5D2L"
+  },
+  {
+    "ID": 6,
+    "ID_Usuario": 3,
+    "Marca": "Hyundai Elantra",
+    "Modelo": 2015,
+    "Placa": "QWE3P0F"
+  },
+  {
+    "ID": 7,
+    "ID_Usuario": 4,
+    "Marca": "Mazda 3",
+    "Modelo": 2011,
+    "Placa": "MSD9H8A"
+  },
+  {
+    "ID": 8,
+    "ID_Usuario": 5,
+    "Marca": "Kia Rio",
+    "Modelo": 2014,
+    "Placa": "RT5Y4O2"
+  },
+  {
+    "ID": 9,
+    "ID_Usuario": 5,
+    "Marca": "Honda Accord",
+    "Modelo": 2009,
+    "Placa": "VBR9P1S"
+  },
+  {
+    "ID": 10,
+    "ID_Usuario": 6,
+    "Marca": "Subaru Impreza",
+    "Modelo": 2016,
+    "Placa": "XZJ3M5P"
+  },
+  {
+    "ID": 11,
+    "ID_Usuario": 6,
+    "Marca": "BMW X3",
+    "Modelo": 2013,
+    "Placa": "BNM8D7Q"
+  },
+  {
+    "ID": 12,
+    "ID_Usuario": 7,
+    "Marca": "Volkswagen Jetta",
+    "Modelo": 2012,
+    "Placa": "JXK3L9D"
+  },
+  {
+    "ID": 13,
+    "ID_Usuario": 8,
+    "Marca": "Toyota Camry",
+    "Modelo": 2014,
+    "Placa": "OIJ6R4F"
+  },
+  {
+    "ID": 14,
+    "ID_Usuario": 9,
+    "Marca": "Chevrolet Spark",
+    "Modelo": 2011,
+    "Placa": "XTR9E1Q"
+  },
+  {
+    "ID": 15,
+    "ID_Usuario": 10,
+    "Marca": "Mazda CX-5",
+    "Modelo": 2017,
+    "Placa": "VWL3P0D"
+  }
+]

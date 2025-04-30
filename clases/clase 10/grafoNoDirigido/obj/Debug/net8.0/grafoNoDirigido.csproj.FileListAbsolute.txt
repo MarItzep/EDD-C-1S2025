@@ -1,0 +1,15 @@
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/bin/Debug/net8.0/grafoNoDirigido
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/bin/Debug/net8.0/grafoNoDirigido.deps.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/bin/Debug/net8.0/grafoNoDirigido.runtimeconfig.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/bin/Debug/net8.0/grafoNoDirigido.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/bin/Debug/net8.0/grafoNoDirigido.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.AssemblyInfoInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.AssemblyInfo.cs
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.sourcelink.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/refint/grafoNoDirigido.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/grafoNoDirigido.genruntimeconfig.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 10/grafoNoDirigido/obj/Debug/net8.0/ref/grafoNoDirigido.dll

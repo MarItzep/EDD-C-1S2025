@@ -6,71 +6,62 @@ using System.Security.Cryptography;
 using System.Text;
 using clase11.Blockchain;
 
-
 class Program
 {
     static void Main(string[] args)
     {
-        // path to the file
-        string path = "usuarios.json";
-        // check if the file exists
+        string path = "usuarios.json"; // Asegúrate de que esté en el directorio correcto
         string jsonData = File.ReadAllText(path);
-        //Console.WriteLine(jsonData);
         List<Usuario> usuarios = JsonConvert.DeserializeObject<List<Usuario>>(jsonData);
-        foreach (var usuario in usuarios)
+
+        // Encriptar contraseñas
+        foreach (var user in usuarios)
         {
-            // Encriptar la contraseña
-            usuario.Contrasenia = EncriptacionSHa256(usuario.Contrasenia);
+            user.Contrasenia = EncryptSHA256(user.Contrasenia);
         }
-        foreach (var usuario in usuarios)
+
+        Blockchain blockchain = new Blockchain();
+
+        foreach (var user in usuarios)
         {
-            Console.WriteLine($"ID: {usuario.ID}");
-            Console.WriteLine($"Nombres: {usuario.Nombres}");
-            Console.WriteLine($"Apellidos: {usuario.Apellidos}");
-            Console.WriteLine($"Correo: {usuario.Correo}");
-            Console.WriteLine($"Edad: {usuario.Edad}");
-            Console.WriteLine($"Contrasenia: {usuario.Contrasenia}");
+            blockchain.AddBlock(user);
+        }
+
+        foreach (var block in blockchain.Chain)
+        {
+            Console.WriteLine("--------- BLOQUE ---------");
+            Console.WriteLine($"Index: {block.Index}");
+            Console.WriteLine($"Timestamp: {block.Timestamp}");
+            Console.WriteLine($"Usuario: {block.Data.Nombres} {block.Data.Apellidos}");
+            Console.WriteLine($"Correo: {block.Data.Correo}");
+            Console.WriteLine($"Edad: {block.Data.Edad}");
+            Console.WriteLine($"Contraseña (hash): {block.Data.Contrasenia}");
+            Console.WriteLine($"Nonce: {block.Nonce}");
+            Console.WriteLine($"Previous Hash: {block.PreviousHash}");
+            Console.WriteLine($"Hash: {block.Hash}");
             Console.WriteLine();
         }
-            Blockchain blockchain = new Blockchain();
-            foreach (var user in usuarios)
-            {
-                blockchain.AddBlock(user);
-            }
-            foreach (var block in blockchain.Chain)
-            {
-                Console.WriteLine("----------------BLOQUE------------------------");
-                Console.WriteLine($"Index: {block.Index}");
-                Console.WriteLine($"Timestamp: {block.Timestamp}");
-                Console.WriteLine($"ID: {block.Data.ID} {block.Data.Nombres}{block.Data.Apellidos}");
-                Console.WriteLine($"Correo: {block.Data.Correo}");
-                Console.WriteLine($"Edad: {block.Data.Edad}");
-                Console.WriteLine($"Contrasenia: {block.Data.Contrasenia}");
-                Console.WriteLine($"Data: {block.Data.Nombres} {block.Data.Apellidos}");
-                Console.WriteLine($"Nonce: {block.Nonce}");
-                Console.WriteLine($"PreviousHash: {block.PreviousHash}");
-                Console.WriteLine($"Hash: {block.Hash}");
-                Console.WriteLine();
-            }
-            // Generar el archivo .dot
-            string rutaArchivo = "blockchain.dot";
-            //GenerarDot
-            blockchain.GenerarDot(rutaArchivo);
-            Console.WriteLine($"Archivo .dot generado en: {rutaArchivo}");
+
+        // Serializar la blockchain a JSON
+        string blockchainJson = JsonConvert.SerializeObject(blockchain.Chain, Formatting.Indented);
+
+        // Guardar la blockchain en un archivo JSON
+        string blockchainFilePath = "blockchain.json";
+        File.WriteAllText(blockchainFilePath, blockchainJson);
+        Console.WriteLine($"Blockchain guardada en: {blockchainFilePath}");
+
+        Console.WriteLine("Archivo DOT generado:");
+        string dotFilePath = "blockchain.dot";
+        blockchain.GenerarDot(dotFilePath);
+        Console.WriteLine($"Archivo DOT generado: {dotFilePath}");
     }
-    // blockchain
 
-
-
-
-    static string EncriptacionSHa256(string text)
+    static string EncryptSHA256(string text)
     {
-        using (SHA256 sha256Hash = SHA256.Create())
+        using (SHA256 sha = SHA256.Create())
         {
-            // ComputeHash - returns byte array
-            byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(text));
-            return BitConverter.ToString(bytes).Replace("-", "").ToLower(); 
-        
+            byte[] bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(text));
+            return BitConverter.ToString(bytes).Replace("-", "").ToLower();
         }
     }
 }

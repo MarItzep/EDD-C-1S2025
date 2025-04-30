@@ -1,0 +1,15 @@
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/bin/Debug/net8.0/ejemplo2
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/bin/Debug/net8.0/ejemplo2.deps.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/bin/Debug/net8.0/ejemplo2.runtimeconfig.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/bin/Debug/net8.0/ejemplo2.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/bin/Debug/net8.0/ejemplo2.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.AssemblyInfoInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.AssemblyInfo.cs
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.csproj.CoreCompileInputs.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.sourcelink.json
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/refint/ejemplo2.dll
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.pdb
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ejemplo2.genruntimeconfig.cache
+/home/marcos/Documentos/EDD-C-1S2025/clases/clase 13/ejemplo2/obj/Debug/net8.0/ref/ejemplo2.dll
