@@ -10,6 +10,10 @@ namespace clase11.Blockchain
         public int Edad {get; set;}
 
         public string Contrasenia {get; set;}
+
+        /// contasenia encriptada 
+        /// 
+        
     }
 
 }
